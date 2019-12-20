@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:id="@+id/home_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >-
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/xg"
+            android:id="@+id/ad_imgshow"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            >
+
+            <com.christzhang.customwidgets.Customtimeout
+                android:id="@+id/skip_control"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:textSize="15sp"
+                app:circSolidColor = "#4541"
+                android:layout_marginRight="15dp"
+                android:layout_alignParentRight="true"
+               />
+        </RelativeLayout>
+
+   </FrameLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/logo"
+        android:textSize="50dp"
+        android:gravity="center"/>
+
+</LinearLayout>

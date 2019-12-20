@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name" translatable="false">Smartvideo</string>
+    <string name="logo" translatable="false">Smartvideo</string>
+    <string name="title_activity_home" translatable="false">HomeActivity</string>
+    <string name="title_home" translatable="false">推荐</string>
+    <string name="title_dashboard" translatable="false">影库</string>
+    <string name="title_notifications" translatable="false">看点</string>
+    <string name="title_mine" translatable="false">我的</string>
+    <string name="text_collect" translatable="false">我的收藏</string>
+    <string name="text_history" translatable="false">历史记录</string>
+    <string name="text_loc" translatable="false">本地视频</string>
+    <string name="text_link" translatable="false">自定义源</string>
+    <string name="text_setting" translatable="false">应用设置</string>
+    <string name="text_about" translatable="false">关于我们</string>
+    <string name="text_upd" translatable="false">版本更新</string>
+    <string name="text_about_content" translatable="false">SmartVideo是一款由苏州高博软件技术职业学院信息与软件学院16级1602班张祖荣创作的一款轻量级视频点播
+    app,app内所有视频资源来自网络搜集，如有侵权内容，请联系作者删除，项目为作者毕业设计项目。</string>
+    <string name="text_hint" translatable="false">请输入播放源</string>
+    <string name="text_play" translatable="false">播放</string>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>
