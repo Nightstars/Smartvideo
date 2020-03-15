@@ -1,16 +1,11 @@
 package com.christzhang.smartvideo;
 
-import com.christzhang.bean.Resources;
 import com.christzhang.customwidgets.Customtimeout;
-import com.christzhang.player.PlayerActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
-
-
 ;import static com.christzhang.customwidgets.Customtimeout.*;
 
 public class MainActivity extends AppCompatActivity {

@@ -13,12 +13,13 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        >-
+        >
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/xg"
-            android:id="@+id/ad_imgshow"/>
+            android:id="@+id/ad_imgshow"
+            android:contentDescription="TODO" />
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
@@ -31,8 +32,8 @@
                 android:layout_height="40dp"
                 android:textSize="15sp"
                 app:circSolidColor = "#4541"
-                android:layout_marginRight="15dp"
-                android:layout_alignParentRight="true"
+                android:layout_marginEnd="15dp"
+                android:layout_alignParentEnd="true"
                />
         </RelativeLayout>
 
@@ -41,7 +42,7 @@
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:text="@string/logo"
-        android:textSize="50dp"
+        android:textSize="50sp"
         android:gravity="center"/>
 
 </LinearLayout>
